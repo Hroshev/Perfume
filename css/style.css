@@ -1022,6 +1022,15 @@ section .image {
 	right: 20px;
 }
 
+.slider__item {
+	padding: 0 30px;
+}
+
+.slider__item img {
+	width: 100%;
+	height: auto;
+}
+
 /* image */
 
 .result_image {
@@ -1461,6 +1470,13 @@ section .image {
 
 .descr__list-item span {
 	font-weight: 400;
+}
+
+.video-2 {
+	padding: 0 30px;
+	object-fit: cover;
+	width: 100%;
+	height: 90%;
 }
 
 /* comparison */
@@ -2168,7 +2184,7 @@ section .image {
 /* order info */
 
 .order_info {
-	padding: 60px 0px;
+	padding: 30px 15px 50px 15px;
 	overflow: hidden;
 }
 
